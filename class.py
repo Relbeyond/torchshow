@@ -5,7 +5,7 @@ class Person:
         # self代表实例对象本身，必须写在方法第一个参数
         self.name = name
         self.age = age
-
+    # 实例方法
     def say_hello(self):
         print(f"我是{self.name},今年{self.age}岁") # f‑string格式化字符串
 
